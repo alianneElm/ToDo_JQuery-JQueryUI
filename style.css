@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+.todo{
+    margin-top: 10px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0;
+    height: 0;
+    border-right: 100px solid transparent;
+}
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 70px;
+    position: relative;
+    top: 60px;
+    left: 25px;
+    font-weight: bold;
+    padding:5px;
+    transform: rotate(-10deg);
+ 
+}
+body{
+    background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v904-nunny-012_3.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=73a171889afa34f1f1ba9234553644d2');
+    margin-top: 150px;
+}
+.container{
+    max-width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+.txtb{
+    width: 100%;
+    border:none;
+    border-bottom: 2px solid rgb(183, 158, 240);
+    background:none;
+    padding:10px;
+    outline: none;
+    font-size:18px;
+}
+h3{
+    margin: 13px 0;
+    font-family: 'Permanent Marker', cursive;
+}
+.task{
+    width: 100%;
+    background: rgba(255, 255, 255, 0.637);
+    color: rgb(97, 23, 216);
+    font-weight: bold;
+    padding: 5px;
+    margin: 6px 0;
+    overflow: hidden;
+    border-radius: 5px 5px 5px 5px ;
+
+}
+.task>i{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 10px;
+    cursor: pointer;
+    padding: 3px;
+    
+}
+.prio .task{
+    background-color:rgba(210, 148, 235, 0.658);
+    color:rgb(81, 7, 124);
+    font-weight: bolder;
+    padding: 5px;
+    border-radius: 5px 5px 5px 5px ;
+    
+}
+.comp .task{
+    background-color:rgba(150, 127, 255, 0.644);
+    color: white;
+    padding: 5px;
+    border-radius: 5px 5px 5px 5px ;
+    text-decoration: line-through;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgb(28, 6, 110);
+    text-align: center;
+    background-color:rgba(247, 247, 247, 0.274);
+    padding: 15px;
+}
+footer>i{
+    font-size: 28px;
+    
+}
